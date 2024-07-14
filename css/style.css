@@ -282,7 +282,7 @@ a.active {
 ==================================================*/
 
 #home {
-    background: url(../img/home-bg-2.jpg);
+    background: url(../img/preface.webp);
     background-size: cover;
     height: 100vh;
 }
@@ -579,10 +579,7 @@ a.active {
     text-align: center;
 }
 
-.portfolio_item img {
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-}
+
 
 .portfolio-padding {
     padding: 50px 0;

@@ -104,8 +104,48 @@ $(document).ready(function () {
     });
 
     //animatedModal
-    $("#demo01,#demo02,#demo03,#demo04,#demo05,#demo06,#demo07,#demo08,#demo09").animatedModal();
-    $("#demo02").codingclubevent();
+    $("#demo01").animatedModal({
+        modalTarget: 'animatedModal'
+    });
+    $("#demo02").animatedModal({
+        modalTarget: 'codingclubevent'
+    });
+    $("#demo03").animatedModal({
+        modalTarget: 'event_management'
+    });
+    $("#demo04").animatedModal({
+        modalTarget: 'team_management'
+    });
+    $("#demo05").animatedModal({
+        modalTarget: 'event_host'
+    });
+    $("#demo06").animatedModal({
+        modalTarget: 'communication_enhancement_community'
+    });
+    $("#demo07").animatedModal({
+        modalTarget: 'event_host_msme'
+    });
+    $("#demo08").animatedModal({
+        modalTarget: 'event_lead'
+    });
+    $("#demo09").animatedModal({
+        modalTarget: 'video_editor_ncc_sati'
+    });
+    $("#demo10").animatedModal({
+        modalTarget: 'video_editor_rpf'
+    });
+    $("#demo11").animatedModal({
+        modalTarget: 'video_editor_caa'
+    });
+    $("#demo12").animatedModal({
+        modalTarget: 'anti_sleep_alarm'
+    });
+    $("#demo13").animatedModal({
+        modalTarget: 'zenmind'
+    });
+    $("#demo14").animatedModal({
+        modalTarget: 'automated_street_lighting_system'
+    });
 
     // Contact Form 	
 
